@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    background: #DDC3AC;
+}
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    margin-bottom: 150px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 10px;
+    color: #fbfbfb;
+    /* display: inline-block; */
+    font-weight: 700;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+nav ul li a h1{
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.content{
+    text-align: center;
+    margin-bottom: 150px;
+}
+.content h2{
+    color: white;
+    font-size: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 560px;
+    line-height: 1.5;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 13px 25px;
+    display: inline-block;
+    letter-spacing: 7px;
+}
+
+.yoga_section{
+    margin-bottom: 100px;
+}
+.bg_yoga{
+    background-image: url(img/a.jpg);
+    width: 50%;
+    float: left;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.content_yoga{
+    width: 50%;
+    float: left;
+    padding: 220px;
+    position: relative;
+}
+.letter{
+    position: absolute;
+    left: 30px;
+}
+.content_yoga .letter h2{
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.content_yoga .letter p{
+    width: 550px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: -11px;
+    line-height: 1.2;
+}
+.content_yoga .letter h3{
+    font-size: 11px;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 13px 13px;
+    display: inline-block;
+    line-height: 9px;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+}
+
+.writer_section{
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0px 280px;
+    text-align: center;
+}
+.writer{
+        margin-bottom: 70px;
+}
+.writer h2{
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    margin-bottom: 10px;
+}
+.writer p{
+        text-align: center;
+    padding: 0px 29px;
+    opacity: 0.5;
+;
+    margin: 20px 0;
+    font-size: 19px;
+    line-height: 1.5;
+}
+.beach{
+        margin-bottom: 70px;
+}
+.beach h2{
+        font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+.beach p{
+        text-align: center;
+    padding: 0px 29px;
+    opacity: 0.5;
+    margin: 20px 0;
+    font-size: 19px;
+    line-height: 1.5;
+}
+   .beach h2{
+    text-align: center;
+    padding: 0px 29px;
+    margin: 20px 0;
+    font-size: 19px;
+    line-height: 1.5;
+   }
+.hot_yoga{
+        
+}
+.hot_yoga h2{
+        font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+.hot_yoga p{
+        text-align: center;
+    padding: 0px 29px;
+    margin: 20px 0;
+    font-size: 19px;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+.bgm{
+    background-image: url(img/c.jpg);
+    width: 50%;
+    float: left;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+}
+.yo_section{}
+.bg{
+    background-image: url(img/b.jpg);
+    width: 50%;
+    float: left;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+}
+.content_yo{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.letter-tm{
+    
+width: 550px;
+    
+margin-left: auto;
+    
+position: absolute;
+    
+bottom: 51px;
+    
+left: 100px;
+}
+
+.letter-tm h2{
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.letter-tm p{
+    line-height: 21px;
+} 
+.letter-tm h4{}
+
+
+.get{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    border: 1px solid;
+    padding: 13px 13px;
+    display: inline-block;
+    margin-top: 50px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+.get:hover{
+    background-color: rgb(237 153 153 / 27%);
+}
+
+.section_vibe{
+    background: #F4D4C1;
+    display: inline-block;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    text-align: center;
+}
+.vibe{
+    position: absolute;
+    top: 21%;
+    right: 45%;
+    transform: translate(45%, 45%);
+}
+.vibe p{
+    font-size: 61px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.3px;
+    margin-bottom: 31px;
+}
+.vibe a{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 15px 29px;
+    color: #383434;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.img_section{
+    height: 90vh;
+    margin-top: 150px;
+}
+.imgone{
+    width: 33.33%;
+    float: left;
+}
+.imgone img{
+    width: 261px;
+    display: block;
+    height: 268px;
+    object-fit: cover;
+}
+.imgto{
+    width: 33.33%;
+    float: left;
+}
+.imgto img{
+    width: 261px;
+    display: block;
+    height: 268px;
+    object-fit: cover;
+}
+.imgtre{
+    width: 33.33%;
+    float: left;
+}
+.imgtre img{
+    width: 261px;
+    display: block;
+    height: 268px;
+    object-fit: cover;
+}
+
+.social{
+    text-align: center;
+}
+.social a{text-decoration: none;}
+.social a i{
+    margin-top: 15px;
+    color: black;
+    padding: 10px 7px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+.endline{
+    margin-top: 19px;
+    text-align: center;
+    padding: 0 257px;
+}
+.end{
+    width: 33.33%;
+    float: left;
+}
+.endif{
+    width: 33.33%;
+    float: left;
+}
+.ended{
+    width: 33.33%;
+    float: left;
+}
+.endline p{
+    font-size: 10px;
+    opacity: 0.8;
+}
